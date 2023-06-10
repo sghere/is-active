@@ -1,0 +1,25 @@
+{
+  "name": "@sghere/is-active",
+  "version": "1.0.2",
+  "description": "This package is designed to be used in a React application to monitor user activity and trigger a callback function when the user has been inactive for a specified period of time.",
+  "main": "lib",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shubham Mahesh Gaikwad",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=18.2.0",
+    "react-dom": ">=18.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.5",
+    "@babel/preset-react": "^7.22.5",
+    "@babel/preset-env": "^7.22.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sghere/is-active.git"
+  }
+}
